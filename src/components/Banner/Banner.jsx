@@ -18,6 +18,7 @@ const Banner = () => {
       }
     }
     fetchData();
+    
   }, []);
 
   function truncate(str, n) {
